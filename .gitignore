@@ -9,3 +9,6 @@ obj/
 *.exe
 *.pdb
 *.dll
+
+# release
+release/
