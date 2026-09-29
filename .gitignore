@@ -1,0 +1,11 @@
+# build
+bin/
+obj/
+
+# vs
+.vs/
+*.csproj.user
+
+*.exe
+*.pdb
+*.dll
