@@ -4,8 +4,10 @@ C# .NET8.0, Windows Forms, Windows PowerShell
 
 直感的なGUI画面`yt-dlp config.exe`でフォーマット・保存先などの設定を行い、`option.json`に保存。
 <br>PowerShellスクリプト`dl.ps1` から事前に生成された`option.json`の設定を読み込み`yt-dlp`を活用した動画・音声のダウンロードを行います。
-<br>個人製作なので、バグ修正やサポートは期待しないでくださいw
-<br>魔理沙かわいいね
+<details>
+  <summary>個人製作なので、バグ修正やサポートは期待しないでくださいw</summary>
+  魔理沙かわいいね
+</details>
 
 ## Image
 ![img1](img/yt-dlp-config.png)
