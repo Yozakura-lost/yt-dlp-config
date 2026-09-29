@@ -16,7 +16,7 @@ C# .NET8.0, Windows Forms, Windows PowerShell
 ## 動作環境
 - Windows 10 / 11
 - .NET 8.0 Runtime
-- PowerShell 7 以降 (または Windows PowerShell) [^1]
+- PowerShell 5.1 以降 [^1]
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) [^2]
 - [ffmpeg](https://www.ffmpeg.org/) [^2]
 
