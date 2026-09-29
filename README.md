@@ -5,7 +5,7 @@ C# .NET8.0, Windows Forms, Windows PowerShell
 直感的なGUI画面`yt-dlp config.exe`でフォーマット・保存先などの設定を行い、`option.json`に保存。
 <br>PowerShellスクリプト`dl.ps1` から事前に生成された`option.json`の設定を読み込み`yt-dlp`を活用した動画・音声のダウンロードを行います。
 <br>個人製作なので、バグ修正やサポートは期待しないでくださいw
-<br><font color="gray"><small>魔理沙かわいいね</small></font>
+<br>魔理沙かわいいね
 
 ## Image
 ![img1](img/yt-dlp-config.png)
@@ -14,9 +14,9 @@ C# .NET8.0, Windows Forms, Windows PowerShell
 ## 動作環境
 - Windows 10 / 11
 - .NET 8.0 Runtime
-- PowerShell 7 以降 (または Windows PowerShell) ※1
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) ※2
-- [ffmpeg](https://www.ffmpeg.org/) ※2
+- PowerShell 7 以降 (または Windows PowerShell) [^1]
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) [^2]
+- [ffmpeg](https://www.ffmpeg.org/) [^2]
 
 ```ファイル構造ツリー
 # 想定ファイル構造ツリー
@@ -35,8 +35,8 @@ yt-dlp.exe           #環境パスを通してください
 ffmpeg.exe           #環境パスを通してください
 ```
 
-※1 実行ポリシーによりブロックされる場合があります。
-<br>※2 環境パスが必要です。
+[^1]: 実行ポリシーによりブロックされる場合があります。
+[^2]: 環境パスが必要です。
 
 ## カスタム設定について
 yt-dlp config.exeでは、yt-dlpでよく使用される一般的なオプション設定を保存することができます。
@@ -50,7 +50,7 @@ FormatOption欄のcustomチェックボックスでは、メタデータ、カ�
 ## Release
 | Version | .NET | 公開日 | サポート |
 ----|----|----|----
-| [v1.0.0](https://github.com/Yozakura-lost/yt-dlp-config/releases) | 8.0 | 2026/09/29 | - |
+| [v1.0.0](https://github.com/Yozakura-lost/yt-dlp-config/releases/tag/v.1.0.0) | 8.0 | 2026/09/29 | - |
 
 ## 著者
 - デザイン　　 : `Yozakura.lost`
