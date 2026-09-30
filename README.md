@@ -32,9 +32,9 @@ yt-dlp config/
 |- yt-dlp config.exe # 設定管理GUI
 
 ...
-yt-dlp.exe           #環境パスを通してください
+yt-dlp.exe           # 環境パスを通してください
 ...
-ffmpeg.exe           #環境パスを通してください
+ffmpeg.exe           # 環境パスを通してください
 ```
 
 ## カスタム設定について
